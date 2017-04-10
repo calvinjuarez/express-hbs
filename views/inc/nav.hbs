@@ -1,0 +1,10 @@
+<!-- nav.hbs -->
+<nav class="page-nav" id="nav">
+	<ul class="nav nav-horizontal">
+{{#each navItems as |navItem|}}
+		<li>
+			<a href="{{navItem.href}}">{{navItem.name}}</a>
+		</li>
+{{/each}}
+	</ul>
+</nav>

@@ -1,0 +1,134 @@
+/*
+ *  Express+Hbs Tinker Site Main Styles - style.less
+ *  @author  Calvin Juárez <me@calvinjuarez.com>
+ *  @copyright  © 2017 Calvin Juárez, except what's owned by others.
+ */
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+body {
+  font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 200;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-top: 1rem;
+  font-family: "Trend Sans", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+}
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+h4,
+h5,
+h6 {
+  margin-bottom: .5rem;
+}
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+strong,
+b {
+  font-weight: 500;
+}
+small,
+.small {
+  font-size: 0.75em;
+}
+.large {
+  font-size: 1.5em;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+/*ul*/
+.nav {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.nav a {
+  display: inline-block;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+/*ul.nav*/
+.nav-horizontal {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/*nav*/
+.page-nav,
+.page-header,
+.page-content,
+.page-footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.page-header,
+.page-content,
+.page-footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.page-nav {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.page-header {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */
